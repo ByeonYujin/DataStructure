@@ -40,7 +40,8 @@ def max_heapsort(iterable):
         result.append(-heapq.heappop(h))
     return result
 
-
+# 결과 출력
+# print result
 result = min_heapsort([1, 3, 5, 7, 9, 2, 4, 6, 8, 0])
 print(result)
 
